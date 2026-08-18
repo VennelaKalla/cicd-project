@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CI/CD DevOps Project</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f6f8;
+            text-align: center;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 25px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            margin: 60px auto;
+            max-width: 700px;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .pipeline {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .stage {
+            padding: 15px 20px;
+            background: #e8f0fe;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background: #222;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>CI/CD DevOps Project</h1>
+        <p>Automated Application Deployment</p>
+    </header>
+
+    <div class="container">
+
+        <h2>Welcome to My CI/CD Project</h2>
+
+        <p>
+            This application is deployed using a CI/CD pipeline
+            with GitHub, Jenkins, Docker, and AWS.
+        </p>
+
+        <h3>CI/CD Pipeline</h3>
+
+        <div class="pipeline">
+            <div class="stage">GitHub</div>
+            <div class="stage">Jenkins</div>
+            <div class="stage">Build</div>
+            <div class="stage">Test</div>
+            <div class="stage">Docker</div>
+            <div class="stage">AWS</div>
+        </div>
+
+        <p style="margin-top: 30px;">
+            🚀 Code → Build → Test → Deploy
+        </p>
+
+    </div>
+
+    <footer>
+        <p>CI/CD Demo Project | DevOps</p>
+    </footer>
+
+</body>
+</html>
